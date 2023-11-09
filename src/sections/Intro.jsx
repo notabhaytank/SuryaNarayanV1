@@ -41,18 +41,18 @@ function Intro(props) {
                                     Get in touch
                                 </div>
                                 <div
-                                    className="items-start self-stretch flex gap-5 mt-4 max-lg:justify-center"
+                                    className="items-start self-stretch lg:flex-row flex flex-col gap-5 mt-4 max-lg:justify-center"
                                 >
                                     <div
-                                        className="items-start self-stretch flex gap-2 max-lg:justify-center"
+                                        className="items-start  flex gap-2 "
                                     >
                                         <div
-                                            className="justify-center items-center border border-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex flex-col flex-1 p-3 rounded-[250px] border-solid"
+                                            className="justify-center items-center border border-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex h-14 w-14 flex-col flex-1 p-3 rounded-[500px] border-solid"
                                         >
                                             <img
                                                 loading="lazy"
                                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab811f47-4390-4502-b5e2-8461a8636682?"
-                                                className="aspect-square object-contain object-center w-full overflow-hidden self-stretch"
+                                                className="aspect-square object-contain object-center w-10 h-10 overflow-hidden self-stretch"
                                                 alt=""/>
                                         </div>
                                         <div
@@ -75,10 +75,13 @@ function Intro(props) {
                                         </div>
                                     </div>
                                     <div
-                                        className="bg-gray-300 self-center w-px h-5 grow shrink basis-auto my-auto"
+                                        className="bg-gray-300 lg:hidden flex self-center h-px w-full  grow shrink basis-auto my-auto"
                                     ></div>
                                     <div
-                                        className="items-start self-center flex gap-2 my-auto max-lg:justify-center"
+                                        className="bg-gray-300 hidden lg:flex self-center w-[1px] h-5 my-auto"
+                                    ></div>
+                                    <div
+                                        className="items-start self-center hidden lg:flex gap-2 my-auto max-lg:justify-center"
                                     >
                                         <div className="text-gray-600 text-base leading-6 self-stretch">
                                             Press
@@ -94,6 +97,22 @@ function Intro(props) {
                                             to copy my email
                                         </div>
                                     </div>
+
+                                    <div
+                                        className="justify-center  items-stretch border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex lg:hidden gap-2 px-4 rounded-lg border-solid"
+                                    >
+                                        <div className="text-gray-600 text-sm font-semibold leading-5 my-3">
+                                            Tap to copy my email
+                                        </div>
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/aecd3539-d3a9-42e5-b6fe-06b1fc5446b5?"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-3"
+                                        />
+                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
