@@ -6,14 +6,14 @@ import bhagat from '../assets/bhagat.png'
 function WhatOthersSay(props) {
     return (
         <div
-            className="justify-center items-start  border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex w-full flex-col  border-b border-solid  "
+            className="justify-center items-start dark:border-b-[#3D3D3D] border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white  dark:bg-[#161616]  flex w-full flex-col  border-b border-solid  "
         >
             <div
-                className="items-start  w-[358px] min-w-[358px]  lg:w-[1200px]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-l-[color:var(--light-mode-stroke,#D7DDE4)] bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] self-center flex  max-w-[1200px] p-10 grow flex-col  border-r border-solid border-l max-lg:max-w-full  max-lg:px-5 "
+                className="items-start  w-[358px] min-w-[358px]  lg:w-[1200px] dark:border-x-[#3D3D3D]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-l-[color:var(--light-mode-stroke,#D7DDE4)] dark:bg-[linear-gradient(102deg,#2A2A2A_0%,#242424_17.19%,#161616_100%)] bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] self-center flex  max-w-[1200px] p-10 grow flex-col  border-r border-solid border-l max-lg:max-w-full  max-lg:px-5 "
             >
                 <div className="items-start flex  max-w-full gap-2 self-start">
                     <div
-                        className="text-black text-sm font-bold tracking-wider uppercase my-auto"
+                        className="text-black dark:text-white text-sm font-bold tracking-wider uppercase my-auto"
                     >
                         What others say
                     </div>
@@ -31,9 +31,9 @@ function WhatOthersSay(props) {
                             className="flex flex-col items-stretch w-[33%] max-lg:w-full max-lg:ml-0"
                         >
                             <div
-                                className="items-start self-stretch border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
+                                className="items-start self-stretch dark:border-[#3D3D3D] border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-[#F5F6F8] dark:bg-[#2B2B2B] flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
                             >
-                                <div className="self-stretch text-gray-600 text-base leading-6">
+                                <div className="self-stretch text-[#575E68] dark:text-white text-base leading-6">
                                     Extremely hard working and a quick learner. Working with Surya
                                     has always been a good experience. If you are looking for a
                                     designer, he is the one.
@@ -48,17 +48,17 @@ function WhatOthersSay(props) {
                                     />
                                     <div className="items-start self-stretch flex flex-col">
                                         <div
-                                            className="text-black text-base font-medium leading-6  "
+                                            className="text-black dark:text-white text-base font-medium leading-6  "
                                         >
                                             Anurag Kumar
                                         </div>
                                         <div
                                             className="text-black text-sm leading-5 "
                                         >
-                    <span className="text-gray-600">
+                    <span className="text-gray-600 dark:text-[#999]">
                       Senior Product Designer at
                     </span>
-                                            <span className="text-black">CoinDCX</span>
+                                            <span className="text-black dark:text-white"> CoinDCX</span>
                                         </div>
                                     </div>
                                 </div>
@@ -68,9 +68,9 @@ function WhatOthersSay(props) {
                             className="flex flex-col items-stretch w-[33%] ml-5 max-lg:w-full max-lg:ml-0"
                         >
                             <div
-                                className="items-start self-stretch border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
+                                className="items-start self-stretch border dark:border-[#3D3D3D] border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-[#F5F6F8] dark:bg-[#2B2B2B] flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
                             >
-                                <div className="self-stretch text-gray-600 text-base leading-6">
+                                <div className="self-stretch text-[#575E68] dark:text-white text-base leading-6">
                                     It has been a pleasure working with you. Your creative thinking
                                     and way of breaking down complex user pain points into simple
                                     flows is really impressive.
@@ -85,15 +85,15 @@ function WhatOthersSay(props) {
                                     />
                                     <div className="items-start self-stretch flex flex-col">
                                         <div
-                                            className="text-black text-base font-medium leading-6 self-stretch whitespace-nowrap"
+                                            className="text-black  dark:text-white text-base font-medium leading-6 self-stretch whitespace-nowrap"
                                         >
                                             Ayush Srivastava
                                         </div>
                                         <div
                                             className="text-black text-sm leading-5 self-stretch whitespace-nowrap"
                                         >
-                                            <span className="text-gray-600">Product Designer at</span>
-                                            <span className="text-black">Classplus</span>
+                                            <span className="text-gray-600 dark:text-[#999]">Product Designer at </span>
+                                            <span className="text-black dark:text-white">Classplus</span>
                                         </div>
                                     </div>
                                 </div>
@@ -103,9 +103,9 @@ function WhatOthersSay(props) {
                             className="flex flex-col items-stretch w-[33%] ml-5 max-lg:w-full max-lg:ml-0"
                         >
                             <div
-                                className="items-start border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
+                                className="items-start border dark:border-[#3D3D3D] border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-[#F5F6F8] dark:bg-[#2B2B2B] flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
                             >
-                                <div className="self-stretch text-gray-600 text-base leading-6">
+                                <div className="self-stretch text-[#575E68] dark:text-white text-base leading-6">
                                     It has been great working with Surya. He is very particular
                                     about the designs he makes, he ensures they are pixel perfect.
                                     It has been a wonderful experience working with him.
@@ -120,15 +120,15 @@ function WhatOthersSay(props) {
                                     />
                                     <div className="items-start self-stretch flex flex-col">
                                         <div
-                                            className="text-black text-base font-medium leading-6 self-stretch whitespace-nowrap"
+                                            className="text-black dark:text-white text-base font-medium leading-6 self-stretch whitespace-nowrap"
                                         >
                                             Bhagat Singh
                                         </div>
                                         <div
-                                            className="text-black text-sm leading-5 self-stretch whitespace-nowrap"
+                                            className="text-black  text-sm leading-5 self-stretch whitespace-nowrap"
                                         >
-                                            <span className="text-gray-600">Full Stack Engineer at</span>
-                                            <span className="text-black">Wify</span>
+                                            <span className="text-gray-600 dark:text-[#999]">Full Stack Engineer at </span>
+                                            <span className="text-black dark:text-white">Wify</span>
                                         </div>
                                     </div>
                                 </div>

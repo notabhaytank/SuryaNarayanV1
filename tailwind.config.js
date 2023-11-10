@@ -7,8 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-
-
+      fontFamily: {
+        InterDisplay: ['Inter-Display', 'sans-serif'],
+      },
 
     },
 

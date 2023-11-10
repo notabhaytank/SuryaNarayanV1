@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'Inter-Display';
+    src: local('InterDisplayRegular'), url('/InterDisplay/InterDisplay-Regular.otf') format('woff2');
+
+    src: local('InterDisplayBlack'), url('/InterDisplay/InterDisplay-Black.otf') format('woff2');
+    /* Add other font formats and variations as needed */
+}
+
+
 :root{
     font-family: Inter, serif;
 }

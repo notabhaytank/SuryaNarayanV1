@@ -36,7 +36,7 @@ const CopyTextOnKeyPress = () => {
             <div
                 className="items-start self-center hidden lg:flex gap-2 my-auto max-lg:justify-center"
             >
-                <div className="text-gray-600 text-base leading-6 self-stretch">
+                <div className="text-[#575E68] dark:text-[#999] text-base leading-6 self-stretch">
                     Press
                 </div>
                 <div
@@ -45,7 +45,7 @@ const CopyTextOnKeyPress = () => {
                     C
                 </div>
                 <div
-                    className="text-gray-600 text-base leading-6 self-stretch whitespace-nowrap"
+                    className="text-[#575E68] dark:text-[#999] text-base leading-6 self-stretch whitespace-nowrap"
                 >
                     to copy my email
                 </div>

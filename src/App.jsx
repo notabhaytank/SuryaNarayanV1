@@ -8,7 +8,6 @@ import Work from "./sections/Work.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footers from "./sections/Footers.jsx";
 import WhatOthersSay from "./sections/What-others-say.jsx";
-import CopyFcn from "./sections/CopyFcn.jsx";
 
 
 
@@ -16,13 +15,12 @@ function App() {
 
     return (
         <>
-            <div className="items-start bg-white flex flex-col   ">
+            <div className="items-start bg-white flex flex-col dark:bg-black  ">
 
 
 
                 <Header/>
                 <Name/>
-
                 <Intro/>
                 <Work/>
                 <WhatOthersSay/>
