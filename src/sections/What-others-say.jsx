@@ -23,7 +23,7 @@ function WhatOthersSay(props) {
                         👽
                     </div>
                 </div>
-                <div className="self-center w-full max-w-[1120px] mt-10 max-lg:max-w-full">
+                <div className="self-center w-full max-w-[1120px] mt-5 max-lg:max-w-full">
                     <div
                         className="gap-5 flex max-lg:flex-col max-lg:items-stretch max-lg:gap-0"
                     >
