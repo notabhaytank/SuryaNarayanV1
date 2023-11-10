@@ -39,5 +39,3 @@ const CopyTextOnClick = () => {
 };
 
 export default CopyTextOnClick;
-
-
