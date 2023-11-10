@@ -5,6 +5,7 @@ import classplus from '../assets/classplus.svg'
 import mobile from '../assets/mobiles.svg'
 import thumbnaild from '../assets/Thumbnaild.svg'
 
+import mobiled from '../assets/mobiled.svg'
 
 function Work(props) {
     return (
@@ -153,7 +154,14 @@ function Work(props) {
 
 
                             src={thumbnail}
-                            className=" h-[348px]  "
+                            className=" h-[348px] md:hidden  "
+                        />
+
+                        <img
+
+
+                            src={thumbnaild}
+                            className=" h-[348px] hidden lg:mr-10 lg: place-self-start lg:flex  "
                         />
                     </div>
                     <div
@@ -213,7 +221,13 @@ function Work(props) {
 
 
                             src={mobile}
-                            className=" rounded-b-[18px] relative z-10 w-[324px] overflow-hidden "
+                            className=" rounded-b-[18px] relative md:hidden z-10 w-[324px] overflow-hidden "
+                        />
+                        <img
+
+
+                            src={mobiled}
+                            className=" rounded-b-[18px] relative md:flex hidden z-10 w-[324px] overflow-hidden "
                         />
 
 

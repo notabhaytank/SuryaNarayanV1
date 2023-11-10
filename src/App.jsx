@@ -15,7 +15,7 @@ function App() {
 
     return (
         <>
-            <div className="items-start bg-white flex flex-col dark:bg-black  ">
+            <div className="items-start bg-white flex flex-col  dark:bg-[#161616]  ">
 
 
 
