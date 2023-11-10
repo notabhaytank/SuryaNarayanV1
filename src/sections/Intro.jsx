@@ -1,4 +1,6 @@
 import React from 'react';
+import CopyFcn from "./CopyFcn.jsx";
+import CopyClickFcn from "./CopyClickFcn.jsx";
 
 function Intro(props) {
     return (
@@ -80,36 +82,9 @@ function Intro(props) {
                                     <div
                                         className="bg-gray-300  hidden lg:flex self-center w-[1px] h-5 my-auto"
                                     ></div>
-                                    <div
-                                        className="items-start self-center hidden lg:flex gap-2 my-auto max-lg:justify-center"
-                                    >
-                                        <div className="text-gray-600 text-base leading-6 self-stretch">
-                                            Press
-                                        </div>
-                                        <div
-                                            className="text-black text-base font-medium leading-6 self-stretch whitespace-nowrap justify-center items-center bg-gray-300 w-6 max-w-full px-1.5 py-px rounded-lg"
-                                        >
-                                            C
-                                        </div>
-                                        <div
-                                            className="text-gray-600 text-base leading-6 self-stretch whitespace-nowrap"
-                                        >
-                                            to copy my email
-                                        </div>
-                                    </div>
+                                    <CopyFcn/>
 
-                                    <div
-                                        className="justify-center  items-stretch border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex lg:hidden gap-2 px-4 rounded-lg border-solid"
-                                    >
-                                        <div className="text-gray-600 text-sm font-semibold leading-5 my-3">
-                                            Tap to copy my email
-                                        </div>
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/aecd3539-d3a9-42e5-b6fe-06b1fc5446b5?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-3"
-                                        />
-                                    </div>
+                                    <CopyClickFcn/>
 
 
 
