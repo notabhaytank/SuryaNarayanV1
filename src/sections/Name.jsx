@@ -9,7 +9,7 @@ function Name(props) {
                 <div className="self-center w-[358px]  lg:w-[1200px]  ">
                     <div className=" flex max-lg:flex-col dark:bg-black max-lg:items-stretch whitespace-nowrap max-lg:gap-0">
                         <div
-                            className="flex lg:flex-row relative z-30 border-l  dark:bg-black border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r  mx-auto border-solid border-l-[color:var(--light-mode-stroke,#D7DDE4)]  bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] flex-col items-stretch w-4/12 max-lg:w-full max-lg:ml-0"
+                              className={' flex lg:flex-row relative z-30 border-l  dark:bg-black border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r  mx-auto border-solid border-l-[color:var(--light-mode-stroke,#D7DDE4)]  bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] flex-col items-stretch w-4/12 max-lg:w-full max-lg:ml-0'}
                         >
 
                             <span

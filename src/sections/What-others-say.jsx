@@ -9,9 +9,9 @@ function WhatOthersSay(props) {
             className="justify-center items-start  border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex w-full flex-col  border-b border-solid  "
         >
             <div
-                className="items-start  w-[358px] min-w-[358px]  lg:w-[1200px]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-l-[color:var(--light-mode-stroke,#D7DDE4)] bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] self-center flex  max-w-[1200px] p-10 grow flex-col  border-r border-solid border-l max-lg:max-w-full "
+                className="items-start  w-[358px] min-w-[358px]  lg:w-[1200px]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-l-[color:var(--light-mode-stroke,#D7DDE4)] bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] self-center flex  max-w-[1200px] p-10 grow flex-col  border-r border-solid border-l max-lg:max-w-full  max-lg:px-5 "
             >
-                <div className="items-start flex w-[177px] max-w-full gap-2 self-start">
+                <div className="items-start flex  max-w-full gap-2 self-start">
                     <div
                         className="text-black text-sm font-bold tracking-wider uppercase my-auto"
                     >
@@ -128,7 +128,7 @@ function WhatOthersSay(props) {
                                             className="text-black text-sm leading-5 self-stretch whitespace-nowrap"
                                         >
                                             <span className="text-gray-600">Full Stack Engineer at</span>
-                                            <span class="text-black">Wify</span>
+                                            <span className="text-black">Wify</span>
                                         </div>
                                     </div>
                                 </div>
