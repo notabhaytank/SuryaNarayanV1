@@ -3,7 +3,7 @@ import React from 'react';
 function Contact(props) {
     return (
         <div
-            className="justify-center items-start self-stretch border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex w-full flex-col px-20 border-b border-solid max-lg:max-w-full max-lg:px-5"
+            className="justify-center items-start self-stretch border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex w-full flex-col  border-b border-solid max-lg:max-w-full "
         >
             <div
                 className="justify-center w-[358px]  lg:w-[1200px] items-center self-center border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-l-[color:var(--light-mode-stroke,#D7DDE4)] bg-white flex  max-w-[1200px] grow flex-col px-20 py-14 border-r border-solid border-l max-lg:max-w-full max-lg:px-5"
