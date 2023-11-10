@@ -1,4 +1,7 @@
 import React from 'react';
+import anurag from '../assets/anurag.png'
+import ayush from '../assets/ayush.png'
+import bhagat from '../assets/bhagat.png'
 
 function WhatOthersSay(props) {
     return (
@@ -40,7 +43,7 @@ function WhatOthersSay(props) {
                                 >
                                     <img
                                         loading="lazy"
-                                        srcSet="..."
+                                        srcSet={anurag}
                                         className="aspect-square object-contain object-center w-9 overflow-hidden self-center max-w-full my-auto"
                                     />
                                     <div className="items-start self-stretch flex flex-col">
@@ -77,7 +80,7 @@ function WhatOthersSay(props) {
                                 >
                                     <img
                                         loading="lazy"
-                                        srcSet="..."
+                                        srcSet={ayush}
                                         className="aspect-square object-contain object-center w-9 overflow-hidden self-center max-w-full my-auto"
                                     />
                                     <div className="items-start self-stretch flex flex-col">
@@ -112,7 +115,7 @@ function WhatOthersSay(props) {
                                 >
                                     <img
                                         loading="lazy"
-                                        srcSet="..."
+                                        srcSet={bhagat}
                                         className="aspect-square object-contain object-center w-9 overflow-hidden self-center max-w-full my-auto"
                                     />
                                     <div className="items-start self-stretch flex flex-col">
