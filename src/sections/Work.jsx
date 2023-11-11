@@ -108,7 +108,7 @@ function Work(props) {
                                     <img
                                         loading="lazy"
                                         src={classplus}
-                                        className="aspect-[0.94] object-contain object-center h-6 w-6 w-4 overflow-hidden shrink-0 max-w-full my-auto"
+                                        className="aspect-[0.94] object-contain object-center h-6 w-6  overflow-hidden shrink-0 max-w-full my-auto"
                                     />
                                     <div
                                         className="text-black dark:text-white  black text-[15px] font-bold leading-6 self-stretch whitespace-nowrap"
@@ -155,7 +155,7 @@ function Work(props) {
 
 
                             src={thumbnail}
-                            className="  md:hidden "
+                            className="  lg:hidden "
                         />
 
                         <img
@@ -297,7 +297,7 @@ function Work(props) {
 
 
                             src={mobile}
-                            className="  md:hidden "
+                            className="  lg:hidden "
                         />
 
                         <img

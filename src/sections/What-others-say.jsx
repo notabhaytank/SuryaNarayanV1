@@ -111,7 +111,7 @@ function WhatOthersSay(props) {
                                     It has been a wonderful experience working with him.
                                 </div>
                                 <div
-                                    className="items-start self-stretch flex justify-between gap-3 mt-6 pr-20 max-lg:pr-5"
+                                    className="items-start self-stretch flex justify-start gap-3 mt-6 pr-20 max-lg:pr-5"
                                 >
                                     <img
                                         loading="lazy"
