@@ -32,7 +32,7 @@
 
 
 *{
-    font-family: Inter, serif;
+    font-family: Inter;
 }
 
 .fade-in-section {
@@ -46,3 +46,45 @@
     transform: translateY(0);
 }
 
+.available{
+
+    padding: 10px 16px;
+    align-items: center;
+    gap: 12px;
+    width: max-content;
+
+
+
+    border-radius: 240px;
+    border: 1px solid #D7DDE4;
+    background: transparent;
+    color:#000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 125% */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer{
+    width: 20px;
+    height: 20px;
+    fill: #06CD2F;
+
+    border-radius: 50px;
+}
+
+.smouter{
+    width: 8px;
+    height: 8px;
+    background-color: #06CD2F;
+    border-radius: 50px;
+    align-self: center;
+
+
+}

@@ -12,15 +12,18 @@ function Name(props) {
                               className={' flex lg:flex-row    border-l dark:border-x-[#3D3D3D] h-[180px]  dark:bg-[#161616] border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r   border-solid border-l-[color:var(--light-mode-stroke,#D7DDE4)]  bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] flex-col items-stretch w-4/12 max-lg:w-full max-lg:ml-0'}
                         >
 
-                            <span
-                                className="justify-start dark:bg-[#161616]  h-[180px]  text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px]  mx-auto pl-10 py-[37px] font-InterDisplay  max-lg:text-4xl  max-lg:pl-5"
-                            >
-                                <span className='relative z-30 font-InterDisplay bottom-4'>Surya Narayanan.</span>
-                                <span className="bg-blue-500">
-                                <img className="rounded-[250px] " src={available}/>
+                            <span className="flex flex-col lg:flex-row  gap-5  justify-start align-bottom my relative z-30 dark:bg-[#161616] overflow-visible h-[180px] text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px] mx-auto pl-10 py-[37px] font-InterDisplay max-lg:text-4xl max-lg:pl-5">
+                                <span className='relative z-30 font-InterDisplay lg:bottom-4'>Surya Narayanan.</span>
+                                <span className="rounded-[240px] my-auto bg-white">
+                                    <div className="available items-center text">
+                                        <div className="bg-[#06CD2F] my-auto justify-center self-center align-middle flex h-2 w-2 flex-col  p-1.5 rounded-[50%]">
+                                            {/* Your content inside the green circle */}
+                                        </div>
+                                        AVAILABLE FOR WORK
+                                    </div>
+                                </span>
                             </span>
 
-                            </span>
 
 
 
