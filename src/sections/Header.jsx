@@ -28,7 +28,7 @@ const Header = () => {
                             className={`flex ${theme === 'dark' ? 'bg-black' : 'bg-white'} justify-center items-start px-4 lg:px-10 border-l h-12 border-solid border-r-[color:var(--light-mode-stroke,#D7DDE4)] dark:border-x-[#3D3D3D] border-l-[color:var(--light-mode-stroke,#D7DDE4)] border-r border-b dark:border-b-[#3D3D3D] border-b-[color:var(--light-mode-stroke,#D7DDE4)] dark:bg-[#161616] flex-col w-[358px] lg:w-4/12 max-lg:w-full max-lg:ml-0`}
                         >
                                         <span onClick={handleThemeSwitch}>
-                                          {theme === 'dark' ? <img src={DarkToggle} className="h-7 align-middle" alt="Dark Mode" /> : <img src={Toggle} className="h-7 align-middle" alt="Light Mode" />}
+                                          {theme === 'dark' ? <img src={DarkToggle} className="h-[24px] w-10 align-middle" alt="Dark Mode" /> : <img src={Toggle} className="h-[24px] w-10 align-middle" alt="Light Mode" />}
 
                                         </span>
                         </div>

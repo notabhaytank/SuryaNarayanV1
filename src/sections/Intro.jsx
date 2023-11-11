@@ -141,7 +141,7 @@ function Intro(props) {
                                     className="items-start dark:bg-[#161616] self-stretch flex grow flex-col mt-4 pr-20 max-lg:pr-5"
                                 >
                                     <div className="items-start dark:bg-[#161616] self-stretch flex justify-between gap-2">
-                                        <div className="text-black text-base leading-6">
+                                        <div className="text-[#575E68] dark:text-[#999] text-base leading-6">
                                             Freelancing, learning to code with <span className="text-black dark:text-white text-base leading-6">
                                             100xEngineers</span> <img
                                                 loading="lazy"
