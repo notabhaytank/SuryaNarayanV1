@@ -12,7 +12,7 @@ function Name(props) {
                               className={' flex lg:flex-row    border-l dark:border-x-[#3D3D3D] h-[180px]  dark:bg-[#161616] border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r   border-solid border-l-[color:var(--light-mode-stroke,#D7DDE4)]  bg-[linear-gradient(135deg,#EDF0F4_0%,#FFF_50%,#FFF_100%)] flex-col items-stretch w-4/12 max-lg:w-full max-lg:ml-0'}
                         >
 
-                            <span className="flex flex-col lg:flex-row  gap-5  justify-start align-bottom my relative z-30 dark:bg-[#161616] overflow-visible h-[180px] text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px] mx-auto pl-10 py-[37px] font-InterDisplay max-lg:text-4xl max-lg:pl-5">
+                            <span className="flex flex-col lg:flex-row  gap-5 border-b dark:border-b-[#3D3D3D] justify-start border-b-[color:var(--light-mode-stroke,#D7DDE4)]  align-bottom my relative z-30 dark:bg-[#161616] overflow-visible h-[180px] text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px] mx-auto pl-10 py-[37px] font-InterDisplay max-lg:text-4xl max-lg:pl-5">
                                 <span className='relative z-30 font-InterDisplay lg:bottom-4'>Surya Narayanan.</span>
                                 <span className="rounded-[240px] my-auto ">
                                     <div className="available rounded-[240px] items-center text-black dark:text-white">
