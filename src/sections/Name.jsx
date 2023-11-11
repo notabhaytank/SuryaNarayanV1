@@ -13,9 +13,9 @@ function Name(props) {
                         >
 
                             <span
-                                className="justify-start dark:bg-[#161616] relative z-30 bottom-4 h-[180px]  text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px]  mx-auto pl-10 py-[37px] font-InterDisplay  max-lg:text-4xl  max-lg:pl-5"
+                                className="justify-start border-b-[color:var(--light-mode-stroke,#D7DDE4)] lg:border-0 border-b border-solid dark:border-b-[#3D3D3D] dark:bg-[#161616]  h-[180px]  text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px]  mx-auto pl-10 py-[37px] font-InterDisplay  max-lg:text-4xl  max-lg:pl-5"
                             >
-                                Surya Narayanan.
+                                <span className='relative z-30 bottom-4'>Surya Narayanan.</span>
                             </span>
 
                             {/*<span className="  dark:bg-[#161616] relative z-30 bottom-3   lg:right-[-700px] lg:bottom-[40px] max-lg:pl-5" >*/}
