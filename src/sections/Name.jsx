@@ -14,8 +14,8 @@ function Name(props) {
 
                             <span className="flex flex-col lg:flex-row  gap-5  justify-start align-bottom my relative z-30 dark:bg-[#161616] overflow-visible h-[180px] text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px] mx-auto pl-10 py-[37px] font-InterDisplay max-lg:text-4xl max-lg:pl-5">
                                 <span className='relative z-30 font-InterDisplay lg:bottom-4'>Surya Narayanan.</span>
-                                <span className="rounded-[240px] my-auto bg-white">
-                                    <div className="available items-center text">
+                                <span className="rounded-[240px] my-auto ">
+                                    <div className="available rounded-[240px] items-center text-black dark:text-white">
                                         <div className="bg-[#06CD2F] my-auto justify-center self-center align-middle flex h-2 w-2 flex-col  p-1.5 rounded-[50%]">
                                             {/* Your content inside the green circle */}
                                         </div>
