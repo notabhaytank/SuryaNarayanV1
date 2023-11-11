@@ -1,11 +1,19 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const CopyTextOnClick = () => {
+    const [isCopied, setIsCopied] = useState(false);
+
     const handleMobileClick = () => {
         const textToCopy = 'Your Email Address';
         navigator.clipboard.writeText(textToCopy).then(
             () => {
                 console.log('Email Copied:', textToCopy);
+                setIsCopied(true);
+
+                // Reset the "copied" state after a certain time
+                setTimeout(() => {
+                    setIsCopied(false);
+                }, 2000);
             },
             (err) => {
                 console.error('Unable to Copy. Error:', err);
@@ -23,11 +31,12 @@ const CopyTextOnClick = () => {
     }, []);
 
     return (
-        <div  id="divToClickOnMobile"
-              className="justify-center  items-stretch border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex lg:hidden gap-2 px-4 rounded-lg border-solid"
+        <div
+            id="divToClickOnMobile"
+            className=" border border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-neutral-100 flex lg:hidden gap-2 px-4 rounded-lg border-solid relative"
         >
             <div className="text-gray-600 text-sm font-semibold leading-5 my-3">
-                Tap to copy my email
+                {isCopied ? 'Copied!' : 'Tap to copy my email'}
             </div>
             <img
                 loading="lazy"
