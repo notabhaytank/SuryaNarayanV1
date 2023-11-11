@@ -8,12 +8,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        InterDisplay: ['Inter-Display', 'sans-serif'],
+        InterDisplay: ['Inter-Display','cursive'],
       },
+      fontWeight: {
+        InterDisplay: {
+          light: 300,
+          normal: 400,
+          bold: 700,
+        },
 
     },
 
 
   },
   plugins: [],
-}
+},}

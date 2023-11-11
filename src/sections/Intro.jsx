@@ -8,7 +8,7 @@ import x from "../assets/100x.svg"
 function Intro(props) {
     return (
         <section
-            className="justify-center items-start self-stretch dark:border-b-[#3D3D3D] border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white dark:bg-[#161616] flex w-full flex-col  px-20 border-b border-solid max-lg:max-w-full  max-lg:px-5"
+            className="justify-center items-start self-stretch  dark:border-b-[#3D3D3D] border-b-[color:var(--light-mode-stroke,#D7DDE4)] bg-white dark:bg-[#161616] flex w-full flex-col  px-20 border-b border-solid max-lg:max-w-full  max-lg:px-5"
         >
             <div className="self-center dark:bg-[#161616] w-[358px]  lg:w-[1200px] ">
                 <div className=" flex dark:bg-[#161616] max-lg:flex-col max-lg:items-stretch max-lg:gap-0">
@@ -16,18 +16,18 @@ function Intro(props) {
                         className="flex dark:bg-[#161616] flex-col items-stretch w-8/12 max-lg:w-full max-lg:ml-0"
                     >
                         <div
-                            className="items-start dark:bg-[#161616] self-stretch dark:border-x-[#3D3D3D] border-l-[color:var(--light-mode-stroke,#D7DDE4)]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r bg-white flex grow flex-col w-full mx-auto py-10 pl-10 border-l border-solid max-lg:max-w-full max-lg:px-5"
+                            className="items-start dark:bg-[#161616] gap-10 self-stretch dark:border-x-[#3D3D3D] border-l-[color:var(--light-mode-stroke,#D7DDE4)]  border-r-[color:var(--light-mode-stroke,#D7DDE4)] border-r bg-white flex grow flex-col w-full mx-auto py-10 pl-10 border-l border-solid max-lg:max-w-full max-lg:px-5"
                         >
                             <div
                                 className="items-start dark:bg-[#161616] flex w-[720px] max-w-full flex-col self-start"
                             >
                                 <div
-                                    className="text-black dark:text-white text-sm font-bold tracking-wider uppercase self-stretch whitespace-nowrap max-lg:max-w-full"
+                                    className="text-black dark:text-white tracking-[1px] font-InterDisplay text-sm font-bold  uppercase self-stretch whitespace-nowrap max-lg:max-w-full"
                                 >
                                     INTRO
                                 </div>
                                 <div
-                                    className="self-stretch text-[#575E68] dark:text-[#999] text-base leading-[18px] mt-4 max-lg:max-w-full"
+                                    className="self-stretch text-[#575E68]  leading-[23px] dark:text-[#999] text-base font-[15px] mt-4 max-lg:max-w-full"
                                 >
                                     Product designer who knows how to code. I have a strong attention
                                     to detail and bring a design approach with 3 years of experience.
@@ -38,7 +38,7 @@ function Intro(props) {
                                 </div>
                             </div>
                             <div
-                                className="items-start dark:bg-[#161616] flex w-[400px] max-w-full flex-col mt-10 self-start"
+                                className="items-start dark:bg-[#161616] flex w-[400px] max-w-full flex-col self-start"
                             >
                                 <div
                                     className="text-black dark:bg-[#161616] dark:text-white text-sm font-bold tracking-wider uppercase self-stretch whitespace-nowrap"
@@ -108,18 +108,18 @@ function Intro(props) {
                                     PREVIOUSLY
                                 </div>
                                 <div
-                                    className="items-start dark:bg-[#161616] self-stretch flex grow flex-col mt-4 pr-20 max-lg:pr-5"
+                                    className="items-start dark:bg-[#161616] self-stretch flex grow flex-col mt-4  max-lg:pr-5"
                                 >
                                     <div className="items-start dark:bg-[#161616] self-stretch flex justify-between gap-2">
-                                        <div className="text-black text-base leading-6">
+                                        <div className="text-black max-w-xl text-base leading-6">
                                             <span className="text-[#575E68] dark:text-[#999]">Product designer at <span className="text-black dark:text-white">Classplus</span> <img
                                                 loading="lazy"
                                                 srcSet={ClassPlus}
-                                                className="aspect-square object-contain object-center w-6 overflow-hidden self-stretch max-w-full"
-                                            /> <span className="text-[#575E68] dark:text-[#999]">&</span> <span className="text-black dark:text-white">Simpl Pay</span> <img
+                                                className="aspect-square object-contain inline-flex object-center w-6 overflow-hidden self-stretch max-w-full"
+                                            /> <br/> <span className="text-[#575E68] dark:text-[#999]"> &</span> <span className="text-black dark:text-white">Simpl Pay</span> <img
                                                 loading="lazy"
                                                 srcSet={SimplPay}
-                                                className="aspect-square object-contain object-center w-6 overflow-hidden self-stretch max-w-full"
+                                                className="aspect-square inline-flex object-contain object-center w-6 overflow-hidden self-stretch max-w-full"
                                             /> </span>
 
                                         </div>
@@ -136,30 +136,32 @@ function Intro(props) {
                                 >
                                     Now
                                 </div>
+
                                 <div
-                                    className="justify-center dark:bg-[#161616] items-start self-stretch flex grow flex-col mt-4"
+                                    className="items-start dark:bg-[#161616] self-stretch flex grow flex-col mt-4 pr-20 max-lg:pr-5"
                                 >
-                                    <div
-                                        className="text-[#575E68] dark:text-[#999] text-base leading-6 self-stretch whitespace-nowrap"
-                                    >
-                                        Freelancing, learning to code with <div className="text-black dark:text-white text-base leading-6">
-                                        100xEngineers
-                                    </div> <img
-                                        loading="lazy"
-                                        srcSet={x}
-                                        className="aspect-square object-contain object-center w-6 overflow-hidden self-stretch max-w-full"
-                                    />
-                                    </div>
-                                    <div className="items-start self-stretch flex justify-between gap-1">
+                                    <div className="items-start dark:bg-[#161616] self-stretch flex justify-between gap-2">
+                                        <div className="text-black text-base leading-6">
+                                            Freelancing, learning to code with <span className="text-black dark:text-white text-base leading-6">
+                                            100xEngineers</span> <img
+                                                loading="lazy"
+                                                srcSet={x}
+                                                className="aspect-square object-contain inline-flex object-center w-6 overflow-hidden self-stretch max-w-full"
+                                            /> <span
+                                            className="text-[#575E68] dark:text-[#999] text-base leading-6 self-stretch whitespace-nowrap">
+                                            and looking for my next design role
+                                            </span>
 
+                                        </div>
 
                                     </div>
-                                    <div
-                                        className="text-[#575E68] dark:text-[#999] text-base leading-6 self-stretch whitespace-nowrap"
-                                    >
-                                        and looking for my next design role
-                                    </div>
+
                                 </div>
+
+
+
+
+
                             </div>
                         </div>
                     </div>

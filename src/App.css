@@ -3,14 +3,35 @@
 
 @font-face {
     font-family: 'Inter-Display';
-    src: local('InterDisplayRegular'), url('/InterDisplay/InterDisplay-Regular.otf') format('woff2');
+    /*src: local('InterDisplayRegular'), url('/src/assets/InterDisplay/InterDisplay-Regular.otf') format('woff2');*/
 
-    src: local('InterDisplayBlack'), url('/InterDisplay/InterDisplay-Black.otf') format('woff2');
+    /*src: local('InterDisplayBold'), url('/src/assets/InterDisplay/InterDisplay-Bold.otf') format('woff2');*/
+    /*src: local('InterDisplayBlack'), url('/src/assets/InterDisplay/InterDisplay-Black.otf') format('woff2');*/
+    src: local('InterDisplayExtraBold'), url('/src/assets/InterDisplay/InterDisplay-ExtraBold.otf') format('woff2');
+    /*src: local('InterDisplayExtraLight'), url('/src/assets/InterDisplay/InterDisplay-ExtraLight.otf') format('woff2');*/
+    /*src: local('InterDisplayLight'), url('/src/assets/InterDisplay/InterDisplay-Light.otf') format('woff2');*/
+    /*src: local('InterDisplayMedium'), url('/src/assets/InterDisplay/InterDisplay-Medium.otf') format('woff2');*/
+    /*src: local('InterDisplaySemiBold'), url('/src/assets/InterDisplay/InterDisplay-SemiBold.otf') format('woff2');*/
+    /*src: local('InterDisplayThin'), url('/src/assets/InterDisplay/InterDisplay-Thin.otf') format('woff2');*/
     /* Add other font formats and variations as needed */
+
+
+    /*font-family: 'Inter-Display400';*/
+    /*!*src: local('InterDisplayRegular'), url('/src/assets/InterDisplay/InterDisplay-Regular.otf') format('woff2');*!*/
+
+    /*!*src: local('InterDisplayBold'), url('/src/assets/InterDisplay/InterDisplay-Bold.otf') format('woff2');*!*/
+    /*!*src: local('InterDisplayBlack'), url('/src/assets/InterDisplay/InterDisplay-Black.otf') format('woff2');*!*/
+    /*!*src: local('InterDisplayExtraBold'), url('/src/assets/InterDisplay/InterDisplay-ExtraBold.otf') format('woff2');*!*/
+    /*!*src: local('InterDisplayExtraLight'), url('/src/assets/InterDisplay/InterDisplay-ExtraLight.otf') format('woff2');*!*/
+    /*!*src: local('InterDisplayLight'), url('/src/assets/InterDisplay/InterDisplay-Light.otf') format('woff2');*!*/
+    /*!*src: local('InterDisplayMedium'), url('/src/assets/InterDisplay/InterDisplay-Medium.otf') format('woff2');*!*/
+    /*src: local('InterDisplaySemiBold'), url('/src/assets/InterDisplay/InterDisplay-SemiBold.otf') format('woff2');*/
+    /*!*src: local('InterDisplayThin'), url('/src/assets/InterDisplay/InterDisplay-Thin.otf') format('woff2');*!*/
+    /*!* Add other font formats and variations as needed *!*/
 }
 
 
-:root{
+*{
     font-family: Inter, serif;
 }
 
