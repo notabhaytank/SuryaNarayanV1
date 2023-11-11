@@ -18,12 +18,12 @@ function Name(props) {
                                 Surya Narayanan.
                             </span>
 
-                            <span className="  dark:bg-[#161616] relative z-30 bottom-3   lg:right-[-700px] lg:bottom-[40px] max-lg:pl-5" >
-                                <div>
-                                    <span className='w-2 h-2'></span>
-                                    <span>AVAILABLE FOR WORK</span>
-                                </div>
-                            </span>
+                            {/*<span className="  dark:bg-[#161616] relative z-30 bottom-3   lg:right-[-700px] lg:bottom-[40px] max-lg:pl-5" >*/}
+                            {/*    <div>*/}
+                            {/*        <span className='w-2 h-2'></span>*/}
+                            {/*        <span>AVAILABLE FOR WORK</span>*/}
+                            {/*    </div>*/}
+                            {/*</span>*/}
 
 
 
