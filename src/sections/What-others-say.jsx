@@ -68,7 +68,7 @@ function WhatOthersSay(props) {
                             className="flex flex-col items-stretch w-[33%]  max-lg:w-full max-lg:ml-0"
                         >
                             <div
-                                className="items-start self-stretch border dark:border-[#3D3D3D] border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-[#F5F6F8] dark:bg-[#2B2B2B] flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
+                                className="items-start self-stretch gap-12 border dark:border-[#3D3D3D] border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm bg-[#F5F6F8] dark:bg-[#2B2B2B] flex w-full max-w-[360px] grow flex-col mx-auto p-6 rounded-3xl border-solid max-lg:mt-5 max-lg:px-5"
                             >
                                 <div className="self-stretch text-[#575E68] dark:text-white text-[15px] leading-[23px]">
                                     It has been a pleasure working with you. Your creative thinking
@@ -76,7 +76,7 @@ function WhatOthersSay(props) {
                                     flows is really impressive.
                                 </div>
                                 <div
-                                    className="items-start self-stretch flex justify-between gap-3 mt-6 pr-16 max-lg:pr-5"
+                                    className="items-start self-stretch flex justify-between gap-3 pr-16 max-lg:pr-5"
                                 >
                                     <img
                                         loading="lazy"
