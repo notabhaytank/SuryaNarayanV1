@@ -21,7 +21,7 @@ function Contact(props) {
                         <img
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c49fb62-2a87-4f25-8dce-d2409097b30b?"
-                            className="aspect-[18.75] object-contain object-center w-[75px] stroke-[2px] stroke-gray-300 overflow-hidden max-w-full self-center"
+                            className="aspect-[18.75] object-contain object-center w-[75px] stroke-[2px] stroke-gray-300 overflow-hidden max-w-full md:self-end self-center"
                         />
 
 

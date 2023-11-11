@@ -1,5 +1,5 @@
 import React from 'react';
-import available from '../assets/available.svg'
+import available from '../assets/availablel.svg'
 
 function Name(props) {
     return (
@@ -13,17 +13,17 @@ function Name(props) {
                         >
 
                             <span
-                                className="justify-start dark:bg-green-900  h-[180px]  text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px]  mx-auto pl-10 py-[37px] font-InterDisplay  max-lg:text-4xl  max-lg:pl-5"
+                                className="justify-start dark:bg-[#161616]  h-[180px]  text-[#1265BF] text-[96px] font-extrabold whitespace-nowrap self-start dark:text-white w-full max-w-[400px]  mx-auto pl-10 py-[37px] font-InterDisplay  max-lg:text-4xl  max-lg:pl-5"
                             >
                                 <span className='relative z-30 font-InterDisplay bottom-4'>Surya Narayanan.</span>
+                                <span className="bg-blue-500">
+                                <img className="rounded-[250px] " src={available}/>
                             </span>
 
-                            {/*<span className="  dark:bg-[#161616] relative z-30 bottom-3   lg:right-[-700px] lg:bottom-[40px] max-lg:pl-5" >*/}
-                            {/*    <div>*/}
-                            {/*        <span className='w-2 h-2'></span>*/}
-                            {/*        <span>AVAILABLE FOR WORK</span>*/}
-                            {/*    </div>*/}
-                            {/*</span>*/}
+                            </span>
+
+
+
 
 
 
