@@ -33,7 +33,7 @@ const CopyTextOnClick = () => {
     return (
         <div
             id="divToClickOnMobile"
-            className={`border  border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm flex lg:hidden gap-2 px-4 rounded-lg border-solid relative ${isCopied ? 'bg-green-500 text-white' : 'bg-neutral-100  text-gray-600'}`}
+            className={`border  border-[color:var(--light-mode-stroke,#D7DDE4)] shadow-sm flex lg:hidden gap-2 px-4 rounded-lg border-solid relative ${isCopied ? ' bg-neutral-100  text-gray-600 ' : 'bg-neutral-100  text-gray-600'}`}
         >
             <div className=" text-sm font-semibold leading-5 my-3">
                 {isCopied ? 'Copied!' : 'Tap to copy my email'}

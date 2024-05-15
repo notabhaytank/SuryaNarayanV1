@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        InterDisplay: ['Inter-Display','cursive'],
+        InterDisplay: ['Inter-Display','sans-serif'],
+        InterDisplayBold: ['Inter-Display-ExtraBold','sans-serif'],
       },
       fontWeight: {
         InterDisplay: {
