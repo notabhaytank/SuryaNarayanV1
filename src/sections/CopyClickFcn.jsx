@@ -10,7 +10,7 @@ const CopyTextOnClick = () => {
                 console.log('Email Copied:', textToCopy);
                 setIsCopied(true);
 
-                // Reset the "copied" state after a certain time
+                // Reset the "copied" state  after a certain time
                 setTimeout(() => {
                     setIsCopied(false);
                 }, 2000);
